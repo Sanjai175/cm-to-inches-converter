@@ -72,7 +72,7 @@ input {
     border: none;
 }
 
-@media screen and (max-width:325px) {
+@media screen and (max-width:500px) {
 
 
     #page .container h1 {
