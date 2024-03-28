@@ -8,7 +8,6 @@
     background: linear-gradient(rgb(30, 136, 224), rgb(72, 225, 72), rgb(173, 125, 173));
     height: 100vh;
     display: flex;
-    
 }
 
 .container {
@@ -44,7 +43,8 @@ h1 {
 .btn {
     margin: 20px 150px;
 }
-.btn button:hover{
+
+.btn button:hover {
     cursor: pointer;
 }
 
@@ -65,10 +65,78 @@ input {
 
 #result {
     margin: 30px 150px;
-    background:transparent;
+    background: transparent;
     height: 20px;
     width: 500px;
     margin-left: 190px;
     border: none;
+}
 
+@media screen and (max-width:325px) {
+
+
+    #page .container h1 {
+        color: rgb(9, 9, 9);
+        font-size: 15px;
+        position: relative;
+        left: -320px;
+    }
+
+    #page {
+
+        height: 100vh;
+        display: flex;
+        width: 100%;
+        border: 2px solid red;
+    }
+
+    .container {
+        border: 1px solid black;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        left: 35px;
+        top: 20px;
+        height: 400px;
+    }
+
+    .input {
+        margin-bottom: 40px;
+    }
+
+    .input input {
+        width: 200px;
+        height: 0px;
+        background: transparent;
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 20px 0px;
+    }
+
+    .btn button:hover {
+        cursor: pointer;
+    }
+
+    .btn button {
+        width: max-content;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(89, 83, 83);
+        color: white;
+        font-size: 12px;
+    }
+
+    #result {
+        background: transparent;
+        height: 20px;
+        width: 500px;
+        margin-left: -120px;
+        border: none;
+    }
 }
