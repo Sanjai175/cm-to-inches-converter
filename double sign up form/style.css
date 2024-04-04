@@ -82,11 +82,11 @@ input {
         left: -320px;
     }
 
-    #page {
+     #page {
 
-        height: 100vh;
+        height: 120vh;
         display: flex;
-        width: 100%;
+        width: 125%;
         border: 2px solid red;
     }
 
