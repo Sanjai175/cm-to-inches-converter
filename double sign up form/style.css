@@ -84,7 +84,7 @@ input {
 
      #page {
 
-        height: 120vh;
+        height: 90vh;
         display: flex;
         width: 115%;
         border: 2px solid red;
