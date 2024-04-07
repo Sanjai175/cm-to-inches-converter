@@ -8,6 +8,8 @@
     background: linear-gradient(rgb(30, 136, 224), rgb(72, 225, 72), rgb(173, 125, 173));
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -15,8 +17,6 @@
     width: 60%;
     position: relative;
     text-align: center;
-    left: 280px;
-    top: 200px;
     height: 400px;
 }
 
@@ -34,23 +34,17 @@
     font-size: 18px;
 }
 
-
 h1 {
-    margin: 30px 150px;
-    width: 600px;
+    margin: 30px auto;
+    width: 80%;
 }
 
 .btn {
-    margin: 20px 150px;
+    margin: 20px auto;
 }
 
 .btn button:hover {
     cursor: pointer;
-}
-
-input {
-    width: 200px;
-    height: 20px;
 }
 
 .btn button {
@@ -64,79 +58,28 @@ input {
 }
 
 #result {
-    margin: 30px 150px;
-    background: transparent;
+    margin: 30px auto;
+    background: blue;
     height: 20px;
-    width: 500px;
-    margin-left: 190px;
+    width: 80%;
     border: none;
 }
 
-@media screen and (max-width:500px) {
-
-
-    #page .container h1 {
-        color: rgb(9, 9, 9);
-        font-size: 15px;
-        position: relative;
-        left: -320px;
-    }
-
-     #page {
-
-        height: 110vh;
-        display: flex;
-        width: 109%;
-        border: 2px solid red;
-    }
-
+@media screen and (max-width:600px) {
     .container {
-        border: 1px solid black;
         width: 80%;
-        position: relative;
-        text-align: center;
-        left: 35px;
-        top: 20px;
-        height: 400px;
     }
-
-    .input {
-        margin-bottom: 40px;
+    
+    h1 {
+        font-size: 20px;
     }
-
+    
     .input input {
-        width: 200px;
-        height: 0px;
-        background: transparent;
-        border: 2px solid white;
-        padding: 20px;
-        border-radius: 20px;
-        font-size: 18px;
+        width: 80%;
     }
-
-    .btn {
-        margin: 20px 0px;
-    }
-
-    .btn button:hover {
-        cursor: pointer;
-    }
-
+    
     .btn button {
-        width: max-content;
-        padding: 10px;
-        border-radius: 20px;
-        border: none;
-        background-color: rgb(89, 83, 83);
-        color: white;
         font-size: 12px;
     }
-
-    #result {
-        background: transparent;
-        height: 20px;
-        width: 500px;
-        margin-left: -120px;
-        border: none;
-    }
 }
+
